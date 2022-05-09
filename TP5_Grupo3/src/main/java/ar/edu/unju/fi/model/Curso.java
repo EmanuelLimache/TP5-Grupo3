@@ -1,11 +1,13 @@
 package ar.edu.unju.fi.model;
 
+import java.time.LocalDate;
+
 public class Curso {
 private int codigo;
 private String titulo;
 private String categoria;
-private String inicio;
-private String fin;
+private LocalDate inicio;
+private LocalDate fin;
 private int cantidadhrs;
 private String modalidad;
 private String docente;
@@ -38,19 +40,19 @@ public void setCategoria(String categoria) {
 	this.categoria = categoria;
 }
 
-public String getInicio() {
+public LocalDate getInicio() {
 	return inicio;
 }
 
-public void setInicio(String inicio) {
+public void setInicio(LocalDate inicio) {
 	this.inicio = inicio;
 }
 
-public String getFin() {
+public LocalDate getFin() {
 	return fin;
 }
 
-public void setFin(String fin) {
+public void setFin(LocalDate fin) {
 	this.fin = fin;
 }
 
