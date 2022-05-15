@@ -1,74 +1,65 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
-	<head>
-		<meta charset="utf-8">
-		<title>Contactos</title>
-		</head>
-	<body>
-	<header>
-	<h1>FI Unju</h1> 
-	<h4>by:EmanuelLimache</h4>
-	<img src="../static/images/calendario.jpg" alt="300" title="beneficios"   height="150" width="300">
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Idiomas</title>
+<link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+<header>
+	<h1>Cursos De Idioma</h1> 
+	<img src="../static/images/calendario.jpg" alt="calendario2022" title="calendario_2022"    width="400">
 	</header>
-		<nav> 
-			<li><a href="index.html">Inicio</a></li>
+	<ol>
+	<nav class="barra"> 
+		<li><a href="index.html">Inicio</a></li>
+		<li> <a href="Agenda.html">Agenda</a> </li> 
+		<li> <a href="Beneficios.html">Beneficios y Becas</a> </li>
+		<li> <a href="Contactenos.html">Contáctanos</a> </li>
 		</nav>
-		<nav> 
-			<li> <a href="agenda.html">Agenda</a> </li>
-		</nav> 
-		<nav> 
-			<li> <a href="beneficios.html">Beneficios y Becas</a> </li>
-		</nav>
-		<nav> 
-			<li> <a href="contactenos.html">Contáctanos </a></li>              
-		</nav>
-		<br>
-		
-		<form action="/my-handling-form-page" method="post">
-			  <li>
-			    <label for="name">Nombre y Apellido:</label>
-			    <input type="text" id="name" name="name0">
-			  </li>
-			  <li>Provincia
-			    <select name="provincia" id="provincia">
-				  <option value="j">Jujuy</option>
-				  <option value="s">Salta</option>
-				  <option value="t">Tucuman</option>
-				  <option value="l">La Rioja</option>
-				  <option value="c">Cordoba</option>
-				  <option value="b">Buenos Aires</option>
-				</select>
-			  </li>
-			  <li>
-			    <label for="msg">Telefono:</label>
-			    <input type="number" id="tel" name="tel0">
-			  </li>
-			  <li>
-			    <label for="msg">Correo electronico:</label>
-			    <input type="email" id="correo" name="correo0">
-			  </li>
-			  <li>
-			  	<label for="msg">Estado Civil</label>
-			  		<br>
-			  		<input type="radio" name="casado" value="1">Casado
-					<br>
-					<input type="radio" name="soltero" value="2">Soltero
-					<br>
-					<input type="radio" name="otro" value="3">Otro
-			  </li>
-			  <li>
-			    <label for="msg">Mensaje:</label>
-			    <input type="text" id="mensaje" name="mensaje0" style="WIDTH: 228px; HEIGHT: 48px"
-						size=32 >
-			  </li>
-	 		  <br>
-	 		  <li>
-	 		  	<input type="submit" value="Enviar datos" />
-	 		  </li>	 			
-		</form>
-		<br>
-		<footer>2022. Portal de Capacitación – Av. Gral. Manuel Belgrano 789 – Teléfono (388) 999999 S. S. de Jujuy República
-Argentina.</footer>
-
-	</body>
-</html> 
+		</ol>
+<section>	
+<h2>Poema</h2>
+<p> Por tus ojos verdes yo me perdería,
+sirena de aquellas que Ulises, sagaz,
+amaba y temía.
+Por tus ojos verdes yo me perdería.
+Por tus ojos verdes en lo que, fugaz,
+brillar suele, a veces, la melancolía;
+por tus ojos verdes tan llenos de paz,
+misteriosos como la esperanza mía;
+por tus ojos verdes, conjuro eficaz,
+yo me salvaría.
+</p>
+<table>
+    <tr>
+    <th>Título del curso</th>
+    <th>fecha inicio </th>
+    <th>Horario</th>
+    <th>Fecha fin</th>
+    <th>Modalidad</th>
+    <th>Docente</th>
+    <th>Duracion en semanas</th>
+    </tr>
+    <tr>
+    <th>Ingles</th>
+    <th>3/5/2022</th>
+    <th>18:00 a 21:00</th>
+    <th>3/6/2022</th>
+    <th>Precencial</th>
+    <th>Jorge Lopez</th>
+    <th>6 horas</th>
+    </tr>
+     <tr>
+    <th>Frances</th>
+    <th>15/5/2022</th>
+    <th>15:00 a 17:00</th>
+    <th>30/6/2022</th>
+    <th>Virtual</th>
+    <th>Maria Torrez</th>
+    <th>4 horas</th>
+    </tr>
+</table>
+</section>	
+</body>
+</html>
